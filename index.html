@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Octo.app — Готовься к экзаменам эффективно</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__inner">
+            <a href="#" class="header__logo">octo.app</a>
+            <nav class="header__nav">
+                <a href="#features" class="header__link">Особенности</a>
+                <a href="#subjects" class="header__link">Предметы</a>
+                <a href="#tests" class="header__link">Тесты</a>
+                <a href="#assistant" class="header__link">ИИ-помощник</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="wrap">
+            <div class="hero-inner">
+                <div class="hero-left">
+                    <h1>
+  <span class="hero-title-line1">Готовься к экзаменам</span><br>
+  <span class="hero-title-line2">эффективно с Octo.app</span>
+</h1>
+                    <p class="lead">Индивидуальные тесты, умный анализ знаний и ИИ‑помощник — всё в одном месте.</p>
+                    <button class="btn primary">Начать обучение</button>
+                </div>
+                <div class="hero-right">
+                    <img src="img/laptop.jpg" alt="Octo.app Dashboard" class="device" id="device">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why features -->
+<section id="features" class="why">
+    <div class="wrap">
+        <h2 class="center">Почему Octo.app?</h2>
+        <div class="features">
+            <img src="img/upload.jpg" alt="Загрузка материалов" class="feature-image animated">
+            
+            <img src="img/tests.jpg" alt="Тысячи тестов" class="feature-image animated">
+            
+            <img src="img/stats.jpg" alt="Полная статистика" class="feature-image animated">
+        </div>
+    </div>
+</section>
+
+
+    <!-- Subjects -->
+<section id="subjects" class="subjects">
+    <div class="wrap">
+        <h2 class="center">Учите любые предметы</h2>
+        <p class="center muted">Добавляйте дисциплины и получайте автоматически сформированные тесты</p>
+        <div class="tags-container">
+            <div class="tags">
+                <span class="tag active">Математика</span>
+                <span class="tag">ОССТ</span>
+                <span class="tag">ОРГ</span>
+                <span class="tag ghost">+</span>
+            </div>
+        </div>
+        
+        <div class="subject-images">
+            <img src="img/progress.jpg" alt="Статистика прогресса" class="subject-img animated">
+            <img src="img/materials.jpg" alt="Материалы" class="subject-img animated">
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Tests -->
+<section id="tests" class="tests">
+    <div class="wrap">
+        <h3>Тесты, которые помогают понять материал</h3>
+        <p class="center muted">Octo.app генерирует тесты из ваших учебных материалов, конспектов и файлов. 
+            Получайте готовые вопросы и проверяйте свои знания.</p>
+        <div class="tests-container">
+            <h4 class="tests-title">Тесты</h4>
+            <div class="tests-box">
+                <input type="text" class="search" placeholder="">
+                <div class="tests-grid">
+                    <div class="test-item">
+                        <div>
+                            <strong>Общий тест по предмету</strong>
+                            <div class="test-desc">Проверьте уровень своей
+                              <br>подготовки по всем темам</div>
+                            <small>35 вопросов 78%</small>
+                        </div>
+                        <div class="play">▶</div>
+                    </div>
+                    <div class="test-item">
+                        <div>
+                            <strong>Тест 12</strong>
+                            <div class="test-desc">Неопределённый интеграл</div>
+                            <br> 
+                            <small>15 вопросов 100%</small>
+                        </div>
+                        <div class="play">▶</div>
+                    </div>
+                    <div class="test-item">
+                        <div>
+                            <strong>Тест 8</strong>
+                            <div class="test-desc">Основные виды ДУ 1-го порядка</div>
+                            <br> 
+                            <small>15 вопросов 95%</small>
+                        </div>
+                        <div class="play">▶</div>
+                    </div>
+                    <div class="test-item">
+                        <div>
+                            <strong>Тест 11</strong>
+                            <div class="test-desc">Комплексные числа</div>
+                            <br> 
+                            <small>20 вопросов 85%</small>
+                        </div>
+                        <div class="play">▶</div>
+                    </div>
+                </div>
+                <div class="scrollbar-decoration"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+    <section class="assistant" id="assistant">
+  <div class="wrap">
+    <h2>Общайтесь с ИИ‑помощником</h2>
+    <p class="muted center">
+      Объясняет темы, решает задачи, создаёт конспекты и помогает разобраться
+      в сложном материале.
+    </p>
+
+    <div class="assistant-layout">
+      <div class="chat-section">
+        <div class="chat-messages" id="chat-messages">
+        </div>
+
+        <div class="chat-input-row">
+          <input
+            type="text"
+            id="chat-input"
+            class="chat-input"
+            placeholder="Напишите запрос ассистенту..."
+          />
+          <button class="btn primary chat-send" id="chat-send">Отправить</button>
+        </div>
+      </div>
+
+</section>
+
+
+
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="wrap">
+            <div class="cta-left">
+                <div class="quote">«Каждый большой результат начинается с одного шага.<br> Сделай свой — начни подготовку уже сегодня.»</div>
+                <button class="btn primary">Начать обучение</button>
+            </div>
+            <div class="cta-right">
+                <img src="img/osmi.jpg" alt="Осьминог Octo" class="octo-img">
+            </div>
+        </div>
+    </section>
+
+            <!-- Footer -->
+    <footer class="footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-left">
+        <div class="footer-brand">octo.app</div>
+        <div class="footer-slogan">Разложи всё по полочкам!</div>
+
+        <div class="contacts">
+          <div class="footer-phone">+7 (812) 123-45-67</div>
+          <div class="footer-mail">Octo_help@mail.com</div>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <div class="footer-links">
+          <a href="#features">Особенности</a>
+          <a href="#subjects">Предметы</a>
+          <a href="#tests">Тесты</a>
+          <a href="#assistant">ИИ-помощник</a>
+        </div>
+
+        <div class="footer-docs">
+          <a href="#">Пользовательское соглашение</a>
+          <a href="#">Согласие на обработку персональных данных</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">© 2025, octo.app. Все права защищены.</div>
+  </div>
+</footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
